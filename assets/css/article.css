@@ -1,0 +1,74 @@
+.container_article
+{
+    width: 100%;
+    background-color: grey;
+}
+
+.article
+{
+    background-color: lightgrey;
+    text-align: center;
+    border: solid 1px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    overflow-wrap: break-word;
+    padding: 1%;
+
+}
+.image_size
+{
+	max-width: 200px;
+	max-height: 200px;
+	margin-top: 20px;
+    padding-bottom: 2%;
+
+}
+
+.firstName_div, .lastName_div, .email_div, .message_div
+{
+    padding: 1%;
+    border: solid red 1px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.btn 
+{
+    margin-top: 1%;
+}
+
+.firstName_div:empty, .lastName_div:empty, .email_div:empty, .message_div:empty
+{
+    display: none;
+}
+
+@media (max-width: 700px)
+{
+    .article
+    {
+        font-size: 0.9em;
+    }
+}
+@media (max-width: 600px)
+{
+    .article
+    {
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 500px)
+{
+    .article
+    {
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 400px)
+{
+    .article
+    {
+        font-size: 0.6em;
+    }
+}

@@ -1,0 +1,23 @@
+.caption
+{
+	text-align: justify;
+	margin: auto;
+  	width: 250px;
+}
+
+.row
+{
+	padding-top: 50px;
+}
+
+.col
+{
+	width: 100px;
+}
+
+.row
+{
+	background-color: rgba(52,58,64,0.5);
+}
+
+

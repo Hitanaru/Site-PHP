@@ -1,0 +1,34 @@
+.navbar-collapse
+{
+	padding-right: 3%;
+}
+.nav-item
+{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: 3%;
+
+}
+
+.login-nav
+{
+	text-align: right;
+}
+.signup
+{
+	text-align: center;
+}
+
+.logout-submit, .login-submit
+{
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+@media (max-width: 576px)
+{
+	.ligne{
+	display: flex;
+	}
+}
